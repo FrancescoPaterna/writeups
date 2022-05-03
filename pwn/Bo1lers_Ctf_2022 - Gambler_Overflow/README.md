@@ -15,7 +15,7 @@ overflow challenge
 
 ### Solution
 
-I've used GHIDRA to reverse the code, inside that I have seen in the function 'casino' I see that the strcmp global variable
+I've used GHIDRA to reverse the code, inside that I have seen in the function 'casino' that the strcmp variables
 could be pwned with a buffer overflow. We just need to put inside the two variables 2 same word of eight letter
 (I choose the word 'jackpot'). 
 I make a bash script who gives me 100 output formed by 'jackpot' + \x00 + 'jacpot' 
