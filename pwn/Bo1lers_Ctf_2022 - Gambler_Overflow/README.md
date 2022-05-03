@@ -26,7 +26,7 @@ where \x00 is the String terminator in hex ('\0'). <br>
 
 
 
-at the end i call the gambler_overflow.sh and put the output in the stdin with the code
+at the end i call the gambler_overflow.sh and give that output to the roulette
 
 ```bash
 ./gambler_overflow < <(./gambler_destroyer2.sh)
