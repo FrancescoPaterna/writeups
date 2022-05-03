@@ -1,4 +1,4 @@
-First pwn challenge in Bo1ler CTF 2022 
+# Bo1ler CTF 2022 - Gambler_Baby
 
 
 <img src="https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Screenshots/gambler_baby%20_screenshot.png" align="left" width="50%" />
