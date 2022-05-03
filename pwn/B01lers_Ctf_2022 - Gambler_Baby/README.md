@@ -13,8 +13,11 @@ We could easly see that every time we run the code, the output are always the sa
 
 I've used GHIDRA to reverse the code, inside that I have seen in the function 'casino' the lines
 of code who generate the output. I rewrite the code in [password_generator.c](https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/password_generator.c) to generate 100 correct output 
-in a file called password.txt, and after that I've used a simple python instruction [gambler_destroyer](https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Gambler%20Destroyer.ipynb).  to 
-inject the 100 correct input.
+in a file called password.txt
 <img src="https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Screenshots/ghidra_screenshot.png"/>
-
+<br>
+after that I've used a simple python instruction [gambler_destroyer](https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Gambler%20Destroyer.ipynb).  to 
+inject the 100 correct input.
+<img src="https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Screenshots/gambler_baby_pwned_screenshot.png"/>
+<br>
 eazy job
