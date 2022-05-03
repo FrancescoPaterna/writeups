@@ -1,4 +1,4 @@
-# Bo1lers CTF 2022 - Gambler_Baby
+# Bo1lers CTF 2022 - Gambler_Overflow
 
 
 <img src="https://github.com/FrancescoPaterna/writeups/blob/a59a729114cd43306fca8e131cde191ebe7ef42c/pwn/Bo1lers_Ctf_2022%20-%20Gambler_Overflow/Screenshots/gambler_overflow.png" align="left" width="50%" />
