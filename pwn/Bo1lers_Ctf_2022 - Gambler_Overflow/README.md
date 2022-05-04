@@ -1,9 +1,9 @@
 # Bo1lers CTF 2022 - Gambler_Overflow
 
-
+### Challenge Description
 <img src="https://github.com/FrancescoPaterna/writeups/blob/a59a729114cd43306fca8e131cde191ebe7ef42c/pwn/Bo1lers_Ctf_2022%20-%20Gambler_Overflow/Screenshots/gambler_overflow.png" align="left" width="50%" />
 
-### Challenge Description
+
 Nothing special, 
 we have to pwn a roulette who give us 4 random letters.<br>
 Unlike gambler_baby, this time the random function is seeded, but due to the title of the challenge, we could think it's a buffer 
