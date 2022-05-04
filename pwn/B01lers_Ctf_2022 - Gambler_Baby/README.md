@@ -7,7 +7,9 @@
 Nothing special, 
 we have to pwn a roulette who give us 4 random letters.
 We could easly see that every time we run the code, the output are always the same, so the random functon does not have the seed
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+---
 
 ### Solution
 
