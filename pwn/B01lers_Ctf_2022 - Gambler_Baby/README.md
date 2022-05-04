@@ -1,9 +1,9 @@
 # Bo1lers CTF 2022 - Gambler_Baby
 
-
+### Challenge Description
 <img src="https://github.com/FrancescoPaterna/writeups/blob/e03c88ad5927fc6094807f7763001b29163e6cb5/pwn/B01ler_Ctf_2022%20-%20Gambler_Baby/Screenshots/gambler_baby%20_screenshot.png" align="left" width="50%" />
 
-### Challenge Description
+
 Nothing special, 
 we have to pwn a roulette who give us 4 random letters.
 We could easly see that every time we run the code, the output are always the same, so the random functon does not have the seed
