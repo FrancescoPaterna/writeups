@@ -12,7 +12,7 @@ overflow challenge
 
 
 
-
+---
 ### Solution
 
 I've used GHIDRA to reverse the code, inside that I have seen in the function 'casino' that the strcmp variables
@@ -34,5 +34,5 @@ at the end i call the gambler_overflow.sh and give that output to the roulette
 
 <img src="https://github.com/FrancescoPaterna/writeups/blob/a59a729114cd43306fca8e131cde191ebe7ef42c/pwn/Bo1lers_Ctf_2022%20-%20Gambler_Overflow/Screenshots/gambler_overflow_pwned.png" width="50%" />
 
-<br><br>
+<br>
 eazy job
