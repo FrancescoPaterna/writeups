@@ -1,5 +1,5 @@
 # WEB
-### Flags captured Computer Security Course held by Prof. Barenghi @ PoliMi
+### Flags captured in Computer Security Course held by Prof. Barenghi @ PoliMi
 #### (Time-Based Blind SQL Injection Attack And QrCode SqlInjection are available in ipynb format)
 
 <br>
